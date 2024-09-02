@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    min-height: 90%;
+}
+
+.header{
+    margin-left: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-right: 200px;
+}
+
+.iniciar,
+.usuario,
+.contraseña,
+.restablecer,
+.ingresar {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.iniciar{
+    width: 290px;
+    height: 50px;
+    border: none;
+}
+
+.usuario{
+    width: 290px;
+    height: 35px;
+}
+
+.contraseña{
+    width: 290px;
+    height: 35px;
+}
+
+.restablecer{
+    background-color: white;
+    border: none;
+}
+
+.ingresar{
+    margin-bottom: 20px;
+    width: 290px;
+    height: 45px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.copy{
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 780px) {
+    body{
+        flex-direction: row;
+    }
+
+    .navbar{
+        margin: 0 20px;
+    }
+}
